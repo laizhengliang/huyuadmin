@@ -15,6 +15,7 @@ class IndexController extends HomebaseController {
 	
     //首页
 	public function index() {
+
     	$this->display(":index");
     }	
 		public function scanqr() {

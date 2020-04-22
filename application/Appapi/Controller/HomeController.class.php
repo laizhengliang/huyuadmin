@@ -4,9 +4,11 @@
  */
 namespace Appapi\Controller;
 use Common\Controller\HomebaseController;
+
 class HomeController extends HomebaseController {
-	
-	function index(){       
+
+	function index(){
+
 		$touid=(int)I("touid");
         
         if(!$touid){
