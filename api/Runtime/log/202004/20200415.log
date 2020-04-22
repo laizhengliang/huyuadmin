@@ -1,0 +1,118 @@
+2020-04-15 11:54:18|DEBUG|failed to upload file to qiniu|{"Err":"incorrect region, please use up-z0.qiniup.com","Reqid":"-KgAAACOcWfu4QUW","Details":"","Code":400}
+2020-04-15 11:59:05|ERROR|Home.getNearby|PDOException: FUNCTION zhibo.getDistance does not exist in /www/api/PhalApi/NotORM/NotORM/Result.php:240
+Stack trace:
+#0 /www/api/PhalApi/NotORM/NotORM/Result.php(774): NotORM_Result->query('SELECT uid,titl...', Array)
+#1 /www/api/PhalApi/NotORM/NotORM/Result.php(851): NotORM_Result->execute()
+#2 /www/api/Appapi/Model/Home.php(284): NotORM_Result->fetchAll()
+#3 /www/api/Appapi/Domain/Home.php(52): Model_Home->getNearby('113.313700', '23.129801', '1')
+#4 /www/api/Appapi/Api/Home.php(368): Domain_Home->getNearby('113.313700', '23.129801', '1')
+#5 /www/api/PhalApi/PhalApi.php(57): Api_Home->getNearby()
+#6 /www/api/public/index.php(14): PhalApi->response()
+#7 {main}
+2020-04-15 11:59:08|ERROR|Home.getNearby|PDOException: FUNCTION zhibo.getDistance does not exist in /www/api/PhalApi/NotORM/NotORM/Result.php:240
+Stack trace:
+#0 /www/api/PhalApi/NotORM/NotORM/Result.php(774): NotORM_Result->query('SELECT uid,titl...', Array)
+#1 /www/api/PhalApi/NotORM/NotORM/Result.php(851): NotORM_Result->execute()
+#2 /www/api/Appapi/Model/Home.php(284): NotORM_Result->fetchAll()
+#3 /www/api/Appapi/Domain/Home.php(52): Model_Home->getNearby('113.313700', '23.129801', '1')
+#4 /www/api/Appapi/Api/Home.php(368): Domain_Home->getNearby('113.313700', '23.129801', '1')
+#5 /www/api/PhalApi/PhalApi.php(57): Api_Home->getNearby()
+#6 /www/api/public/index.php(14): PhalApi->response()
+#7 {main}
+2020-04-15 12:00:04|DEBUG|failed to upload file to qiniu|{"Err":"incorrect region, please use up-z0.qiniup.com","Reqid":"MZQAAAAd_iY_4gUW","Details":"","Code":400}
+2020-04-15 12:01:44|DEBUG|failed to upload file to qiniu|{"Err":"incorrect region, please use up-z0.qiniup.com","Reqid":"o90AAADQhWBW4gUW","Details":"","Code":400}
+2020-04-15 12:08:08|ERROR|Home.getNearby|PDOException: FUNCTION zhibo.getDistance does not exist in /www/api/PhalApi/NotORM/NotORM/Result.php:240
+Stack trace:
+#0 /www/api/PhalApi/NotORM/NotORM/Result.php(774): NotORM_Result->query('SELECT uid,titl...', Array)
+#1 /www/api/PhalApi/NotORM/NotORM/Result.php(851): NotORM_Result->execute()
+#2 /www/api/Appapi/Model/Home.php(284): NotORM_Result->fetchAll()
+#3 /www/api/Appapi/Domain/Home.php(52): Model_Home->getNearby('113.313700', '23.129801', '1')
+#4 /www/api/Appapi/Api/Home.php(368): Domain_Home->getNearby('113.313700', '23.129801', '1')
+#5 /www/api/PhalApi/PhalApi.php(57): Api_Home->getNearby()
+#6 /www/api/public/index.php(14): PhalApi->response()
+#7 {main}
+2020-04-15 12:08:10|ERROR|Home.getNearby|PDOException: FUNCTION zhibo.getDistance does not exist in /www/api/PhalApi/NotORM/NotORM/Result.php:240
+Stack trace:
+#0 /www/api/PhalApi/NotORM/NotORM/Result.php(774): NotORM_Result->query('SELECT uid,titl...', Array)
+#1 /www/api/PhalApi/NotORM/NotORM/Result.php(851): NotORM_Result->execute()
+#2 /www/api/Appapi/Model/Home.php(284): NotORM_Result->fetchAll()
+#3 /www/api/Appapi/Domain/Home.php(52): Model_Home->getNearby('113.313700', '23.129801', '1')
+#4 /www/api/Appapi/Api/Home.php(368): Domain_Home->getNearby('113.313700', '23.129801', '1')
+#5 /www/api/PhalApi/PhalApi.php(57): Api_Home->getNearby()
+#6 /www/api/public/index.php(14): PhalApi->response()
+#7 {main}
+2020-04-15 12:08:27|ERROR|Home.getNearby|PDOException: FUNCTION zhibo.getDistance does not exist in /www/api/PhalApi/NotORM/NotORM/Result.php:240
+Stack trace:
+#0 /www/api/PhalApi/NotORM/NotORM/Result.php(774): NotORM_Result->query('SELECT uid,titl...', Array)
+#1 /www/api/PhalApi/NotORM/NotORM/Result.php(851): NotORM_Result->execute()
+#2 /www/api/Appapi/Model/Home.php(284): NotORM_Result->fetchAll()
+#3 /www/api/Appapi/Domain/Home.php(52): Model_Home->getNearby('113.313700', '23.129801', '1')
+#4 /www/api/Appapi/Api/Home.php(368): Domain_Home->getNearby('113.313700', '23.129801', '1')
+#5 /www/api/PhalApi/PhalApi.php(57): Api_Home->getNearby()
+#6 /www/api/public/index.php(14): PhalApi->response()
+#7 {main}
+2020-04-15 12:08:31|ERROR|Home.getNearby|PDOException: FUNCTION zhibo.getDistance does not exist in /www/api/PhalApi/NotORM/NotORM/Result.php:240
+Stack trace:
+#0 /www/api/PhalApi/NotORM/NotORM/Result.php(774): NotORM_Result->query('SELECT uid,titl...', Array)
+#1 /www/api/PhalApi/NotORM/NotORM/Result.php(851): NotORM_Result->execute()
+#2 /www/api/Appapi/Model/Home.php(284): NotORM_Result->fetchAll()
+#3 /www/api/Appapi/Domain/Home.php(52): Model_Home->getNearby('113.313700', '23.129801', '1')
+#4 /www/api/Appapi/Api/Home.php(368): Domain_Home->getNearby('113.313700', '23.129801', '1')
+#5 /www/api/PhalApi/PhalApi.php(57): Api_Home->getNearby()
+#6 /www/api/public/index.php(14): PhalApi->response()
+#7 {main}
+2020-04-15 14:40:35|ERROR|Home.getNearby|PDOException: FUNCTION zhibo.getDistance does not exist in /www/api/PhalApi/NotORM/NotORM/Result.php:240
+Stack trace:
+#0 /www/api/PhalApi/NotORM/NotORM/Result.php(774): NotORM_Result->query('SELECT uid,titl...', Array)
+#1 /www/api/PhalApi/NotORM/NotORM/Result.php(851): NotORM_Result->execute()
+#2 /www/api/Appapi/Model/Home.php(284): NotORM_Result->fetchAll()
+#3 /www/api/Appapi/Domain/Home.php(52): Model_Home->getNearby('113.313880', '23.129774', '1')
+#4 /www/api/Appapi/Api/Home.php(368): Domain_Home->getNearby('113.313880', '23.129774', '1')
+#5 /www/api/PhalApi/PhalApi.php(57): Api_Home->getNearby()
+#6 /www/api/public/index.php(14): PhalApi->response()
+#7 {main}
+2020-04-15 14:40:39|DEBUG|failed to upload file to qiniu|{"Err":"incorrect region, please use up-z0.qiniup.com","Reqid":"Ts0AAACwtkUC6wUW","Details":"","Code":400}
+2020-04-15 14:41:12|ERROR|Home.getNearby|PDOException: FUNCTION zhibo.getDistance does not exist in /www/api/PhalApi/NotORM/NotORM/Result.php:240
+Stack trace:
+#0 /www/api/PhalApi/NotORM/NotORM/Result.php(774): NotORM_Result->query('SELECT uid,titl...', Array)
+#1 /www/api/PhalApi/NotORM/NotORM/Result.php(851): NotORM_Result->execute()
+#2 /www/api/Appapi/Model/Home.php(284): NotORM_Result->fetchAll()
+#3 /www/api/Appapi/Domain/Home.php(52): Model_Home->getNearby('113.313880', '23.129774', '1')
+#4 /www/api/Appapi/Api/Home.php(368): Domain_Home->getNearby('113.313880', '23.129774', '1')
+#5 /www/api/PhalApi/PhalApi.php(57): Api_Home->getNearby()
+#6 /www/api/public/index.php(14): PhalApi->response()
+#7 {main}
+2020-04-15 14:48:45|DEBUG|failed to upload file to qiniu|{"Err":"incorrect region, please use up-z0.qiniup.com","Reqid":"H0sAAACvqK5z6wUW","Details":"","Code":400}
+2020-04-15 14:48:59|DEBUG|failed to upload file to qiniu|{"Err":"incorrect region, please use up-z0.qiniup.com","Reqid":"1TkAAACxDNV26wUW","Details":"","Code":400}
+2020-04-15 14:51:13|ERROR|Home.getNearby|PDOException: FUNCTION zhibo.getDistance does not exist in /www/api/PhalApi/NotORM/NotORM/Result.php:240
+Stack trace:
+#0 /www/api/PhalApi/NotORM/NotORM/Result.php(774): NotORM_Result->query('SELECT uid,titl...', Array)
+#1 /www/api/PhalApi/NotORM/NotORM/Result.php(851): NotORM_Result->execute()
+#2 /www/api/Appapi/Model/Home.php(284): NotORM_Result->fetchAll()
+#3 /www/api/Appapi/Domain/Home.php(52): Model_Home->getNearby('113.313880', '23.129774', '1')
+#4 /www/api/Appapi/Api/Home.php(368): Domain_Home->getNearby('113.313880', '23.129774', '1')
+#5 /www/api/PhalApi/PhalApi.php(57): Api_Home->getNearby()
+#6 /www/api/public/index.php(14): PhalApi->response()
+#7 {main}
+2020-04-15 14:51:40|ERROR|Home.getNearby|PDOException: FUNCTION zhibo.getDistance does not exist in /www/api/PhalApi/NotORM/NotORM/Result.php:240
+Stack trace:
+#0 /www/api/PhalApi/NotORM/NotORM/Result.php(774): NotORM_Result->query('SELECT uid,titl...', Array)
+#1 /www/api/PhalApi/NotORM/NotORM/Result.php(851): NotORM_Result->execute()
+#2 /www/api/Appapi/Model/Home.php(284): NotORM_Result->fetchAll()
+#3 /www/api/Appapi/Domain/Home.php(52): Model_Home->getNearby('113.313880', '23.129774', '1')
+#4 /www/api/Appapi/Api/Home.php(368): Domain_Home->getNearby('113.313880', '23.129774', '1')
+#5 /www/api/PhalApi/PhalApi.php(57): Api_Home->getNearby()
+#6 /www/api/public/index.php(14): PhalApi->response()
+#7 {main}
+2020-04-15 18:37:19|ERROR|Home.getNearby|PDOException: FUNCTION zhibo.getDistance does not exist in /www/api/PhalApi/NotORM/NotORM/Result.php:240
+Stack trace:
+#0 /www/api/PhalApi/NotORM/NotORM/Result.php(774): NotORM_Result->query('SELECT uid,titl...', Array)
+#1 /www/api/PhalApi/NotORM/NotORM/Result.php(851): NotORM_Result->execute()
+#2 /www/api/Appapi/Model/Home.php(284): NotORM_Result->fetchAll()
+#3 /www/api/Appapi/Domain/Home.php(52): Model_Home->getNearby('0.0', '0.0', '1')
+#4 /www/api/Appapi/Api/Home.php(368): Domain_Home->getNearby('0.0', '0.0', '1')
+#5 /www/api/PhalApi/PhalApi.php(57): Api_Home->getNearby()
+#6 /www/api/public/index.php(14): PhalApi->response()
+#7 {main}
+2020-04-15 19:16:06|DEBUG|failed to upload file to qiniu|{"Err":"incorrect region, please use up-z0.qiniup.com","Reqid":"jUcAAABwX2kK-gUW","Details":"","Code":400}
+2020-04-15 19:23:55|DEBUG|failed to upload file to qiniu|{"Err":"incorrect region, please use up-z0.qiniup.com","Reqid":"g0gAAADM9553-gUW","Details":"","Code":400}

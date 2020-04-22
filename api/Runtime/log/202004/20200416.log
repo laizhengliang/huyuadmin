@@ -1,0 +1,50 @@
+2020-04-16 09:58:14|ERROR|Home.getNearby|PDOException: FUNCTION zhibo.getDistance does not exist in /www/api/PhalApi/NotORM/NotORM/Result.php:240
+Stack trace:
+#0 /www/api/PhalApi/NotORM/NotORM/Result.php(774): NotORM_Result->query('SELECT uid,titl...', Array)
+#1 /www/api/PhalApi/NotORM/NotORM/Result.php(851): NotORM_Result->execute()
+#2 /www/api/Appapi/Model/Home.php(284): NotORM_Result->fetchAll()
+#3 /www/api/Appapi/Domain/Home.php(52): Model_Home->getNearby('0.0', '0.0', '1')
+#4 /www/api/Appapi/Api/Home.php(368): Domain_Home->getNearby('0.0', '0.0', '1')
+#5 /www/api/PhalApi/PhalApi.php(57): Api_Home->getNearby()
+#6 /www/api/public/index.php(14): PhalApi->response()
+#7 {main}
+2020-04-16 10:27:21|ERROR|Home.getNearby|PDOException: FUNCTION zhibo.getDistance does not exist in /www/api/PhalApi/NotORM/NotORM/Result.php:240
+Stack trace:
+#0 /www/api/PhalApi/NotORM/NotORM/Result.php(774): NotORM_Result->query('SELECT uid,titl...', Array)
+#1 /www/api/PhalApi/NotORM/NotORM/Result.php(851): NotORM_Result->execute()
+#2 /www/api/Appapi/Model/Home.php(284): NotORM_Result->fetchAll()
+#3 /www/api/Appapi/Domain/Home.php(52): Model_Home->getNearby('113.313639', '23.129789', '1')
+#4 /www/api/Appapi/Api/Home.php(368): Domain_Home->getNearby('113.313639', '23.129789', '1')
+#5 /www/api/PhalApi/PhalApi.php(57): Api_Home->getNearby()
+#6 /www/api/public/index.php(14): PhalApi->response()
+#7 {main}
+2020-04-16 10:43:18|ERROR|Home.getNearby|PDOException: FUNCTION zhibo.getDistance does not exist in /www/api/PhalApi/NotORM/NotORM/Result.php:240
+Stack trace:
+#0 /www/api/PhalApi/NotORM/NotORM/Result.php(774): NotORM_Result->query('SELECT uid,titl...', Array)
+#1 /www/api/PhalApi/NotORM/NotORM/Result.php(851): NotORM_Result->execute()
+#2 /www/api/Appapi/Model/Home.php(284): NotORM_Result->fetchAll()
+#3 /www/api/Appapi/Domain/Home.php(52): Model_Home->getNearby('113.314139', '23.129925', '1')
+#4 /www/api/Appapi/Api/Home.php(368): Domain_Home->getNearby('113.314139', '23.129925', '1')
+#5 /www/api/PhalApi/PhalApi.php(57): Api_Home->getNearby()
+#6 /www/api/public/index.php(14): PhalApi->response()
+#7 {main}
+2020-04-16 10:43:22|ERROR|Home.getNearby|PDOException: FUNCTION zhibo.getDistance does not exist in /www/api/PhalApi/NotORM/NotORM/Result.php:240
+Stack trace:
+#0 /www/api/PhalApi/NotORM/NotORM/Result.php(774): NotORM_Result->query('SELECT uid,titl...', Array)
+#1 /www/api/PhalApi/NotORM/NotORM/Result.php(851): NotORM_Result->execute()
+#2 /www/api/Appapi/Model/Home.php(284): NotORM_Result->fetchAll()
+#3 /www/api/Appapi/Domain/Home.php(52): Model_Home->getNearby('113.314139', '23.129925', '1')
+#4 /www/api/Appapi/Api/Home.php(368): Domain_Home->getNearby('113.314139', '23.129925', '1')
+#5 /www/api/PhalApi/PhalApi.php(57): Api_Home->getNearby()
+#6 /www/api/public/index.php(14): PhalApi->response()
+#7 {main}
+2020-04-16 10:43:26|ERROR|Home.getNearby|PDOException: FUNCTION zhibo.getDistance does not exist in /www/api/PhalApi/NotORM/NotORM/Result.php:240
+Stack trace:
+#0 /www/api/PhalApi/NotORM/NotORM/Result.php(774): NotORM_Result->query('SELECT uid,titl...', Array)
+#1 /www/api/PhalApi/NotORM/NotORM/Result.php(851): NotORM_Result->execute()
+#2 /www/api/Appapi/Model/Home.php(284): NotORM_Result->fetchAll()
+#3 /www/api/Appapi/Domain/Home.php(52): Model_Home->getNearby('113.314139', '23.129925', '1')
+#4 /www/api/Appapi/Api/Home.php(368): Domain_Home->getNearby('113.314139', '23.129925', '1')
+#5 /www/api/PhalApi/PhalApi.php(57): Api_Home->getNearby()
+#6 /www/api/public/index.php(14): PhalApi->response()
+#7 {main}

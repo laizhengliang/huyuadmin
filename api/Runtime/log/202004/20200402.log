@@ -1,0 +1,55 @@
+2020-04-02 09:05:22|ERROR|Home.getNearby|exception 'PDOException' with message 'FUNCTION zhibo.getDistance does not exist' in /www/wwwroot/zhibo.daweia.cn/api/PhalApi/NotORM/NotORM/Result.php:240
+Stack trace:
+#0 /www/wwwroot/zhibo.daweia.cn/api/PhalApi/NotORM/NotORM/Result.php(774): NotORM_Result->query('SELECT uid,titl...', Array)
+#1 /www/wwwroot/zhibo.daweia.cn/api/PhalApi/NotORM/NotORM/Result.php(851): NotORM_Result->execute()
+#2 /www/wwwroot/zhibo.daweia.cn/api/Appapi/Model/Home.php(284): NotORM_Result->fetchAll()
+#3 /www/wwwroot/zhibo.daweia.cn/api/Appapi/Domain/Home.php(52): Model_Home->getNearby('0.0', '0.0', '1')
+#4 /www/wwwroot/zhibo.daweia.cn/api/Appapi/Api/Home.php(368): Domain_Home->getNearby('0.0', '0.0', '1')
+#5 [internal function]: Api_Home->getNearby()
+#6 /www/wwwroot/zhibo.daweia.cn/api/PhalApi/PhalApi.php(57): call_user_func(Array)
+#7 /www/wwwroot/zhibo.daweia.cn/api/public/index.php(14): PhalApi->response()
+#8 {main}
+2020-04-02 09:05:23|ERROR|Home.getNearby|exception 'PDOException' with message 'FUNCTION zhibo.getDistance does not exist' in /www/wwwroot/zhibo.daweia.cn/api/PhalApi/NotORM/NotORM/Result.php:240
+Stack trace:
+#0 /www/wwwroot/zhibo.daweia.cn/api/PhalApi/NotORM/NotORM/Result.php(774): NotORM_Result->query('SELECT uid,titl...', Array)
+#1 /www/wwwroot/zhibo.daweia.cn/api/PhalApi/NotORM/NotORM/Result.php(851): NotORM_Result->execute()
+#2 /www/wwwroot/zhibo.daweia.cn/api/Appapi/Model/Home.php(284): NotORM_Result->fetchAll()
+#3 /www/wwwroot/zhibo.daweia.cn/api/Appapi/Domain/Home.php(52): Model_Home->getNearby('0.0', '0.0', '1')
+#4 /www/wwwroot/zhibo.daweia.cn/api/Appapi/Api/Home.php(368): Domain_Home->getNearby('0.0', '0.0', '1')
+#5 [internal function]: Api_Home->getNearby()
+#6 /www/wwwroot/zhibo.daweia.cn/api/PhalApi/PhalApi.php(57): call_user_func(Array)
+#7 /www/wwwroot/zhibo.daweia.cn/api/public/index.php(14): PhalApi->response()
+#8 {main}
+2020-04-02 09:18:40|ERROR|Home.getNearby|exception 'PDOException' with message 'FUNCTION zhibo.getDistance does not exist' in /www/wwwroot/zhibo.daweia.cn/api/PhalApi/NotORM/NotORM/Result.php:240
+Stack trace:
+#0 /www/wwwroot/zhibo.daweia.cn/api/PhalApi/NotORM/NotORM/Result.php(774): NotORM_Result->query('SELECT uid,titl...', Array)
+#1 /www/wwwroot/zhibo.daweia.cn/api/PhalApi/NotORM/NotORM/Result.php(851): NotORM_Result->execute()
+#2 /www/wwwroot/zhibo.daweia.cn/api/Appapi/Model/Home.php(284): NotORM_Result->fetchAll()
+#3 /www/wwwroot/zhibo.daweia.cn/api/Appapi/Domain/Home.php(52): Model_Home->getNearby('0.0', '0.0', '1')
+#4 /www/wwwroot/zhibo.daweia.cn/api/Appapi/Api/Home.php(368): Domain_Home->getNearby('0.0', '0.0', '1')
+#5 [internal function]: Api_Home->getNearby()
+#6 /www/wwwroot/zhibo.daweia.cn/api/PhalApi/PhalApi.php(57): call_user_func(Array)
+#7 /www/wwwroot/zhibo.daweia.cn/api/public/index.php(14): PhalApi->response()
+#8 {main}
+2020-04-02 09:18:59|ERROR|Home.getNearby|exception 'PDOException' with message 'FUNCTION zhibo.getDistance does not exist' in /www/wwwroot/zhibo.daweia.cn/api/PhalApi/NotORM/NotORM/Result.php:240
+Stack trace:
+#0 /www/wwwroot/zhibo.daweia.cn/api/PhalApi/NotORM/NotORM/Result.php(774): NotORM_Result->query('SELECT uid,titl...', Array)
+#1 /www/wwwroot/zhibo.daweia.cn/api/PhalApi/NotORM/NotORM/Result.php(851): NotORM_Result->execute()
+#2 /www/wwwroot/zhibo.daweia.cn/api/Appapi/Model/Home.php(284): NotORM_Result->fetchAll()
+#3 /www/wwwroot/zhibo.daweia.cn/api/Appapi/Domain/Home.php(52): Model_Home->getNearby('0.0', '0.0', '1')
+#4 /www/wwwroot/zhibo.daweia.cn/api/Appapi/Api/Home.php(368): Domain_Home->getNearby('0.0', '0.0', '1')
+#5 [internal function]: Api_Home->getNearby()
+#6 /www/wwwroot/zhibo.daweia.cn/api/PhalApi/PhalApi.php(57): call_user_func(Array)
+#7 /www/wwwroot/zhibo.daweia.cn/api/public/index.php(14): PhalApi->response()
+#8 {main}
+2020-04-02 09:20:05|ERROR|Home.getNearby|exception 'PDOException' with message 'FUNCTION zhibo.getDistance does not exist' in /www/wwwroot/zhibo.daweia.cn/api/PhalApi/NotORM/NotORM/Result.php:240
+Stack trace:
+#0 /www/wwwroot/zhibo.daweia.cn/api/PhalApi/NotORM/NotORM/Result.php(774): NotORM_Result->query('SELECT uid,titl...', Array)
+#1 /www/wwwroot/zhibo.daweia.cn/api/PhalApi/NotORM/NotORM/Result.php(851): NotORM_Result->execute()
+#2 /www/wwwroot/zhibo.daweia.cn/api/Appapi/Model/Home.php(284): NotORM_Result->fetchAll()
+#3 /www/wwwroot/zhibo.daweia.cn/api/Appapi/Domain/Home.php(52): Model_Home->getNearby('0.0', '0.0', '1')
+#4 /www/wwwroot/zhibo.daweia.cn/api/Appapi/Api/Home.php(368): Domain_Home->getNearby('0.0', '0.0', '1')
+#5 [internal function]: Api_Home->getNearby()
+#6 /www/wwwroot/zhibo.daweia.cn/api/PhalApi/PhalApi.php(57): call_user_func(Array)
+#7 /www/wwwroot/zhibo.daweia.cn/api/public/index.php(14): PhalApi->response()
+#8 {main}
